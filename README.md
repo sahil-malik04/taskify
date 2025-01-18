@@ -1,8 +1,34 @@
-# React + Vite
+# Task Management Application  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and efficient Task Management Application built with **React** and **Vite**. The app lets you manage your tasks easily and is designed to work on both mobile and desktop screens.
 
-Currently, two official plugins are available:
+## Features  
+### Core Functionality  
+- **Create, Update, and Delete Tasks**  
+- **Mark Tasks as Complete or Incomplete**  
+- **Filter Tasks**: View all, completed, or incomplete tasks.  
+- **Sort Tasks**: By creation date or priority.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Extra Features
+- **Task Persistence**: Save tasks using local storage.  
+- **Smooth Animations**: Transitions for task interactions.  
+
+### Tech Stack  
+- **React**: Core framework for building the app.  
+- **Vite**: Lightning-fast bundler and development environment.  
+- **React Router**: For seamless navigation between pages.  
+- **PropTypes**: To ensure robust component communication.  
+- **React Testing Library**: For testing components.  
+
+## Pages  
+**Home Page**  
+   - Displays the task list.  
+   - Fully responsive and optimized for performance.  
+
+## Performance  
+- Achieves **90+ PageSpeed Insights score** on both mobile and desktop for the home page.  
+
+## Installation & Setup  
+Clone the repository:
+   git clone https://github.com/sahil-malik04/taskify.git  
+   cd task-management-app 
